@@ -1,0 +1,17 @@
+/* para todos elementos da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cor fundo back*/
+body {
+    color: #FFF;
+    background: #ebf2f5;
+}
+
+/* abribuir a fonte para os componentes*/
+body, input, button, textarea {
+    font: 600 18px Nunito, sans-serif;
+}

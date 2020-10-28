@@ -1,0 +1,92 @@
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wrapper {
+    /*Faz com que seja relativo a div*/
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    /*elementos um em cima do outro*/
+    flex-direction: column;
+    /*espaço entre os elementos*/
+    justify-content: space-between;
+
+    background: url('../../images/landing.svg') no-repeat 80% center;
+}
+
+
+#page-landing .content-wrapper main {
+    /*força a quebra da linha*/
+    max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1 {
+    font-size: 76px;
+    font-weight: 900;
+    /*aproxima as linhas*/
+    line-height: 70px;
+}
+
+#page-landing .content-wrapper main p {
+    /*afasta da do componente de cima*/
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+/*joga o elemento para a direta absoluta top*/
+.content-wrapper .location {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 24px;
+    list-style: height 34px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.content-wrapper .location strong{
+    font-weight: 800;
+}
+
+/*joga o elemento para a direta absoluta bottom*/
+.content-wrapper .enter-app {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    /*alinha verticalmente*/
+    align-items: center;
+    /*alinha horizontalmente*/
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover {
+    background: #96FEFF;
+}
