@@ -15,7 +15,7 @@ Um projeto desenvolvido na semana nlw da rocketseat, sendo uma plataforma para f
 - **Mobile**
   - [React](https://reactjs.org/)
   - [Typescript](https://www.typescriptlang.org/)
-  - [Expo] (https://expo.io/)
+  - [Expo](https://expo.io/)
 
 - **Web**
   - [React](https://reactjs.org/)
