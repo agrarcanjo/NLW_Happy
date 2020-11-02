@@ -3,9 +3,7 @@
 
 - [Sobre o projeto](#-about)
 - [Tecnologias](#-Tecnologias)
-- [Instalação e Start](#-instalação-e-start)
-- [Contribuições](#-contribuições)
-- [License](#-license)
+- [Instalação e Execução](#-start) 
 
 
 <h2>  Sobre o projeto </h2>
